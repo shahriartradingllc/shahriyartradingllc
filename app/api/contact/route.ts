@@ -8,8 +8,8 @@ export async function POST(req: Request) {
       return Response.json({ error: "Missing required fields." }, { status: 400 });
     }
 
-    const user = process.env.GMAIL_USER;
-    const pass = process.env.GMAIL_APP_PASSWORD;
+    const user = process.env.GMAIL_USER;shahriartradingllc@gmail.com
+    const pass = process.env.GMAIL_APP_PASSWORD;kywm sylm ayav oeqs
 
     if (!user || !pass) {
       console.error("Email env vars missing");
